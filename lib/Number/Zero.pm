@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use parent 'Exporter';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our @EXPORT  = qw/is_zero/;
 
 sub is_zero($) {
@@ -22,7 +22,7 @@ Number::Zero - make sure of the number zero
 =head1 SYNOPSIS
 
     # Export type functions by default
-    use Number::Zero;;
+    use Number::Zero;
     
     is_zero 0;        # 1
     is_zero 1326      # undef

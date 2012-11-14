@@ -3,7 +3,7 @@ NAME
 
 SYNOPSIS
         # Export type functions by default
-        use Number::Zero;;
+        use Number::Zero;
     
         is_zero 0;        # 1
         is_zero 1326      # undef

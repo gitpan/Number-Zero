@@ -2,3 +2,6 @@ Revision history for Perl extension Number::Zero
 
 0.01 2012-11-14T20:16:04+09:00
      - initial version
+
+0.02 2012-11-14T20:16:04+19:00
+     - fixed pod typo 
